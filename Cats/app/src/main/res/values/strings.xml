@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="breeds">BREEDS</string>
+    <string name="randomFact">RANDOM FACT</string>
+    <string name="facts">FACTS</string>
+</resources>

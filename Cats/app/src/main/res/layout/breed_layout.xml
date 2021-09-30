@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:padding="10dp">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:text="Breed type: "
+              android:textStyle="normal"/>
+
+          <TextView
+              android:layout_marginStart="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvBreed"
+              android:textSize="20sp"
+              android:text="Meow"
+              android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:text="Coat: "
+              android:textStyle="normal"/>
+
+          <TextView
+              android:layout_marginStart="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvCoat"
+              android:textSize="20sp"
+              android:text="Meow"
+              android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:text="Country: "
+              android:textStyle="normal"/>
+
+          <TextView
+              android:layout_marginStart="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvCountry"
+              android:textSize="20sp"
+              android:text="Meow"
+              android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:text="Origin: "
+              android:textStyle="normal"/>
+
+          <TextView
+              android:layout_marginStart="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvOrigin"
+              android:textSize="20sp"
+              android:text="Meow"
+              android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="5dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:text="Patter: "
+              android:textStyle="normal"/>
+
+          <TextView
+              android:layout_marginStart="5dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvPattern"
+              android:textSize="20sp"
+              android:text="Meow"
+              android:textStyle="bold"/>
+
+      </LinearLayout>
+
+  </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
